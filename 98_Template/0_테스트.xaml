@@ -1,0 +1,249 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_0_테스트" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1004,1614" sap2010:WorkflowViewState.IdRef="_0_테스트_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_0_테스트" sap:VirtualizedContainerService.HintSize="496,1549" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strText" />
+      <Variable x:TypeArguments="x:Int32" Name="strReturn" />
+      <Variable x:TypeArguments="x:String" Name="ExampleInArgument" />
+      <Variable x:TypeArguments="x:String" Name="OutValue" />
+      <Variable x:TypeArguments="x:String" Name="strKoString" />
+      <Variable x:TypeArguments="x:String" Name="strApt" />
+      <Variable x:TypeArguments="x:String" Name="id_Apt" />
+      <Variable x:TypeArguments="x:String" Name="strdtApt" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[strApt]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">(533) 연수주공1차아파트(연수주공1차)</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_6">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[strdtApt]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">연수주공1차</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim pattern As String = &quot;\(([^)]+)\)\s*([^(\n]+)&quot;&#xD;&#xA;Dim regex As New Regex(pattern)&#xD;&#xA;&#xD;&#xA;Dim match As Match = regex.Match(input)&#xD;&#xA;If match.Success Then&#xD;&#xA;&#x9;return_Apt = match.Groups(2).Value&#xD;&#xA;    Console.WriteLine(&quot;단지명: &quot; &amp; match.Groups(2).Value)&#xD;&#xA;Else&#xD;&#xA;    Console.WriteLine(&quot;매칭되지 않았습니다.&quot;)&#xD;&#xA;End If&#xD;&#xA;&#xD;&#xA;" DisplayName="정규식 | Invoke Code" sap:VirtualizedContainerService.HintSize="434,197" sap2010:WorkflowViewState.IdRef="InvokeCode_4">
+      <ui:InvokeCode.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="input">[strApt]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="matches">[strdtApt]</InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="return_Apt">[id_Apt]</OutArgument>
+      </ui:InvokeCode.Arguments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InvokeCode>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[&quot;&gt; &quot; + strApt + &quot;, 최종 : &quot; + id_Apt]" />
+    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[ExampleInArgument]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">뭔가요?</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim TextToWrite As String&#xA;'TextToWrite = &quot;Example&quot;&#xA;TextToWrite = ExampleInArgument&#xA;ExampleOutArgument = &quot;푸하하&quot;&#xA;Console.WriteLine(TextToWrite)" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="434,197" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+      <ui:InvokeCode.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="ExampleInArgument">[ExampleInArgument]</InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="ExampleOutArgument">[OutValue]</OutArgument>
+      </ui:InvokeCode.Arguments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InvokeCode>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;&gt; &quot; + OutValue.ToString]" />
+    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[strText]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">갂기</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="416,193" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InvokeCode ContinueOnError="{x:Null}" Code="&#xA;Function GetInitialConsonant(c As Char) As String&#xA;    Dim initialConsonants As Integer() = { &amp;H3131, &amp;H3132, &amp;H3134, &amp;H3137, &amp;H3138, &amp;H3139, &amp;H3141, &amp;H3142, &amp;H3143, &amp;H3145, &amp;H3146, &amp;H3147, &amp;H3148, &amp;H3149, &amp;H314A, &amp;H314B, &amp;H314C, &amp;H314D, &amp;H314E }&#xA;    Dim baseCode As Integer = AscW(c) - &amp;HAC00&#xA;    Dim initialConsonantIndex As Integer = baseCode \ (21 * 28)&#xA;    Return ChrW(initialConsonants(initialConsonantIndex)).ToString()&#xA;End Function&#xA;&#xA;Sub ExtractInitials(ByRef strA As String, ByRef initials As String)&#xA;&#xA;    Dim result As New System.Text.StringBuilder()&#xA;&#xA;    For Each ch As Char In strA&#xA;&#xA;        If AscW(ch) &gt;= &amp;HAC00 AndAlso AscW(ch) &lt;= &amp;HD7A3 Then&#xA;            result.Append(GetInitialConsonant(ch))&#xA;        End If&#xA;    Next&#xA;    initials = result.ToString()&#xA;End Sub&#xA;&#xA;ExtractInitials(strA, initials)" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="354,57" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+            <ui:InvokeCode.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="strA">[strText]</InArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="initials">[strReturn]</OutArgument>
+            </ui:InvokeCode.Arguments>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:InvokeCode>
+          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,48" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;&gt; &quot; + strReturn.ToString]">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </WriteLine>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Const KOR_UNICODE_START As Integer = &amp;HAC00&#xA;&#xA;Dim FirstSeong As Char() = New Char() _&#xA;    {&quot;ㄱ&quot;c, &quot;ㄲ&quot;c, &quot;ㄴ&quot;c, &quot;ㄷ&quot;c, &quot;ㄸ&quot;c, &quot;ㄹ&quot;c, &quot;ㅁ&quot;c, &quot;ㅂ&quot;c, &quot;ㅃ&quot;c, _&#xA;     &quot;ㅅ&quot;c, &quot;ㅆ&quot;c, &quot;ㅇ&quot;c, &quot;ㅈ&quot;c, &quot;ㅉ&quot;c, &quot;ㅊ&quot;c, &quot;ㅋ&quot;c, &quot;ㅌ&quot;c, &quot;ㅍ&quot;c, &quot;ㅎ&quot;c}&#xA;&#xA;Dim MidSeong As Char() = New Char() _&#xA;    {&quot;ㅏ&quot;c, &quot;ㅐ&quot;c, &quot;ㅑ&quot;c, &quot;ㅒ&quot;c, &quot;ㅓ&quot;c, &quot;ㅔ&quot;c, &quot;ㅕ&quot;c, &quot;ㅖ&quot;c, _&#xA;     &quot;ㅗ&quot;c, &quot;ㅘ&quot;c, &quot;ㅙ&quot;c, &quot;ㅚ&quot;c, &quot;ㅛ&quot;c, &quot;ㅜ&quot;c, &quot;ㅝ&quot;c, &quot;ㅞ&quot;c, _&#xA;     &quot;ㅟ&quot;c, &quot;ㅠ&quot;c, &quot;ㅡ&quot;c, &quot;ㅢ&quot;c, &quot;ㅣ&quot;c}&#xA;&#xA;Dim EndSeong As Char() = New Char() _&#xA;    {&quot;ㄱ&quot;c, &quot;ㄲ&quot;c, &quot;ㄳ&quot;c, &quot;ㄴ&quot;c, &quot;ㄵ&quot;c, &quot;ㄶ&quot;c, &quot;ㄷ&quot;c, &quot;ㄹ&quot;c, _&#xA;     &quot;ㄺ&quot;c, &quot;ㄻ&quot;c, &quot;ㄼ&quot;c, &quot;ㄽ&quot;c, &quot;ㄾ&quot;c, &quot;ㄿ&quot;c, &quot;ㅀ&quot;c, &quot;ㅁ&quot;c, _&#xA;     &quot;ㅂ&quot;c, &quot;ㅄ&quot;c, &quot;ㅅ&quot;c, &quot;ㅆ&quot;c, &quot;ㅇ&quot;c, &quot;ㅈ&quot;c, &quot;ㅊ&quot;c, &quot;ㅋ&quot;c, _&#xA;     &quot;ㅌ&quot;c, &quot;ㅍ&quot;c, &quot;ㅎ&quot;c}&#xA;&#xA;Dim result As New System.Text.StringBuilder()&#xA;&#xA;For Each ch As Char In input&#xA;    If ch = &quot; &quot;c Then&#xA;        result.Append(&quot; &quot;)&#xA;        Continue For&#xA;    End If&#xA;&#xA;    Dim indexGap As Integer = AscW(ch) - KOR_UNICODE_START&#xA;    Dim first As Integer = indexGap \ (21 * 28)&#xA;    Dim Mid As Integer = (indexGap - (first * 21 * 28)) \ 28&#xA;    Dim [end] As Integer = indexGap Mod 28 &#xA;&#xA;    result.Append(FirstSeong(first))&#xA;    result.Append(MidSeong(Mid))&#xA;&#xA;    If [end] &gt; 0 Then&#xA;        result.Append(EndSeong([end]))&#xA;    End If&#xA;Next&#xA;&#xA;KoString = left(result.ToString(), 1)&#xA;'System.Diagnostics.Debug.WriteLine(result.ToString())&#xA;Console.WriteLine(KoString)" DisplayName="초성 찾기 | Invoke Code" sap:VirtualizedContainerService.HintSize="434,197" sap2010:WorkflowViewState.IdRef="InvokeCode_3">
+      <ui:InvokeCode.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="input">[strText]</InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="KoString">[strKoString]</OutArgument>
+      </ui:InvokeCode.Arguments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InvokeCode>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,113" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[&quot;&gt; &quot; + strKoString]" />
+  </Sequence>
+</Activity>

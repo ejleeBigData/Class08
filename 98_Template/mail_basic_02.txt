@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=Content-Type content='text/html; charset=utf-8'>
+<style>
+table {{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}}
+
+td, th {{
+  border: 1px solid #bffbff;
+  text-align: left;
+  padding: 8px;
+}}
+
+tr:nth-child(even) {{
+  background-color: #bffbff;
+}}
+</style>
+</head>
+<body>
+
+<div>
+	<p>안녕하세요, 팀장님.</p>
+	<p>이은정 입니다. </p>
+	<p>{0} 과제 제출합니다.</p>
+    <p>감사합니다.</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>{1}</h2>
+<h3>{2}</h3>
+{3}
+<p>&nbsp;</p>
+<hr>
+<p>
+<div style='border: 1px solid #F5F5F5;background-color:#F5F5F5;'>
+	<p><h4>&nbsp;강동여성인력개발센터 & ICT CoC </h4></p>
+ 	<p>&nbsp;RPA(로봇 프로세스 자동화) 개발자 양성과정 </p>	
+ 	<p>&nbsp;수강생 이은정 &nbsp;&nbsp;&nbsp;<a href='https://bristle-cake-fae.notion.site/4384c326862f4deabee8fd71650968a6?v=1557525f292c4b919744d1954c03cc1d&pvs=4' >Notion.</a> </p>
+ </div>
+ 
+</body>
+</html>

@@ -1,0 +1,21 @@
+New Dictionary(Of String, String) From {
+	{"InFolder", "99_Data\Input\"} , 
+	{"InFile", "부동산공시가격_Temp.xlsx"} , 
+	{"OutFolder", "99_Data\Output\"} ,
+	{"ProcFile", "부동산공시가격_Temp.xlsx"} 
+	}
+
+Q. 인수 패널에서 dt 초기화 하는지요?
+
+퍼지, 퍼지의 텍스트 입력
+
+찾아보기 
+RemoteException wrapping UiPath.UIAutomationNext.Exceptions.NodeNotFoundException: 이 액션에 대한 UI(사용자 인터페이스) 엘리먼트를 찾을 수 없습니다.
+
+System.IO.Directory.GetCurrentDirectory().ToString + "\" +
+io_dicFFIle("OutFolder").Substring(0, io_dicFFIle("OutFolder").Length - 1)
+
+System.IO.Directory.GetCurrentDirectory().ToString + "\" + 
+io_dicFFIle("InFolder").Substring(0, io_dicFFIle("InFolder").Length - 1)
+
+System.IO.Directory.GetCurrentDirectory().ToString + "\" +io_dicFFIle("OutFolder").trim.TrimEnd("\"c)

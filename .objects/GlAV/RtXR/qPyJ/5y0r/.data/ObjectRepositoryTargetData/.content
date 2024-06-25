@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CxlKkqDZKUO2rkdBF8nsPQ" Reference="Hwi66ls9CkyXIUuN1UOJ6A/5y0rtO_4GkSZGaXqU7I8ag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.realtyprice.kr/notice/town/searchPastYear.htm" CVScreenId="c15919b7-5163-43ba-ae5b-dc5d75363119" CvTextArea="775, 779, 35, 15" CvTextArgument="1015" CvType="Text" DesignTimeRectangle="776, 777, 79, 18" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='dong' tag='SELECT' /&gt;&lt;webctrl tag='OPTION' /&gt;" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl id='dong' tag='SELECT' /&gt;&lt;webctrl tag='OPTION' type='' class='' aaname='{0}' check:innerText='{0}' /&gt;&quot;, strDong)]" Guid="36a68069-9029-4e9b-a6b9-7262845adf92" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='NOTICE' title='부동산공시가격 알리미' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c15919b7-5163-43ba-ae5b-dc5d75363119" CvTextArea="772, 758, 14, 15" CvTextArgument="d" CvType="Text" DesignTimeRectangle="773, 758, 13, 15" ElementType="Text" Guid="551f5a3a-40c4-4381-9e3f-70d743871a05" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="da2d255e54235aedd96bc05011087b09.png" xmlns="">0MWHUJLV_30WCXY95ZjrO3A</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="strDong" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

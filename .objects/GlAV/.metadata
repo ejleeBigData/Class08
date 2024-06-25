@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome 부동산공시가격 알리미",
+  "Type": "App",
+  "Id": "GlAVcMepEUGIuD40auKcFw",
+  "Reference": "Hwi66ls9CkyXIUuN1UOJ6A/GlAVcMepEUGIuD40auKcFw",
+  "Created": "2024-06-23T10:21:16.784561Z",
+  "Updated": "2024-06-23T10:21:16.784561Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

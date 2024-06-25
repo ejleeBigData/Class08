@@ -1,0 +1,13 @@
+﻿{
+  "Name": "동명_strDong  Click '동명없음'",
+  "Type": "Element",
+  "Id": "5y0rtO_4GkSZGaXqU7I8ag",
+  "Reference": "Hwi66ls9CkyXIUuN1UOJ6A/5y0rtO_4GkSZGaXqU7I8ag",
+  "ParentRef": "Hwi66ls9CkyXIUuN1UOJ6A/qPyJQaQdrEWbgHEUXo73UA",
+  "Created": "2024-06-23T10:21:17.1274517Z",
+  "Updated": "2024-06-23T10:21:17.1274517Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
